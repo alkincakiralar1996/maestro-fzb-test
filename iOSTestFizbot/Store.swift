@@ -32,7 +32,7 @@ struct StoreKitRateManager {
         requestReview()
     }
 
-    fileprivate func requestReview() {
+    func requestReview() {
         #if os(macOS)
             SKStoreReviewController.requestReview()
         #else
