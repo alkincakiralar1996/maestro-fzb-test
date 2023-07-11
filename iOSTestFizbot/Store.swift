@@ -18,6 +18,8 @@ struct StoreKitRateManager {
 
         let appOpenCountValue = userdefaults.integer(forKey: StoreKitRateManager.APPLICATION_OPEN_COUNT_STATUS)
 
+        //
+
         userdefaults.set(appOpenCountValue + 1, forKey: StoreKitRateManager.APPLICATION_OPEN_COUNT_STATUS)
         userdefaults.synchronize()
     }
