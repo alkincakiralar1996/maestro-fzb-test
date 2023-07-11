@@ -1,0 +1,14 @@
+//
+//  prod.xcconfig
+//  iOSTestFizbot
+//
+//  Created by Alkın Çakıralar on 12.06.2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BUNDLE_DISPLAY_NAME = Fizbot
+//PRODUCT_BUNDLE_IDENTIFIER = com.makswin.ios.test.iOSTestFizbot
+PRODUCT_BUNDLE_IDENTIFIER = com.makswin.ios.test.iOSTestFizbot.debug
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
