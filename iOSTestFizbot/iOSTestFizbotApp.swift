@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct iOSTestFizbotApp: App {
+struct IOSTestFizbotApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

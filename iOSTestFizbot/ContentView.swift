@@ -9,7 +9,7 @@ import AuthenticationServices
 import OSLog
 import SwiftUI
 
-struct ContentView: View  {
+struct ContentView: View {
     @State private var isSensitive = false
 
     var body: some View {
